@@ -1,0 +1,149 @@
+body{
+    background: url("../img/login-bg.jpg") center center fixed;
+    background-size: cover;
+    color: #293846;
+}
+.srcil-bg{
+    background: url("../img/noisy.jpg") center center fixed;
+    background-size: cover;
+}
+.ibox-title, .ibox-content{
+    background-color: rgba(255, 255, 255, .7);
+}
+.navbar-fixed-top, .navbar-static-top {
+    background: transparent;
+}
+.dropdown-menu{
+    background-color: rgba(240, 240, 240, 1);
+}
+.navbar-top-links li a {
+    min-height: 40px;
+}
+.navbar-top-links .dropdown-menu li a {
+    padding: 3px 10px;
+    min-height: 0;
+}
+.nav.navbar-right > li > a {
+    color: #7a7a7a;
+}
+.navbar-top-links .dropdown-menu > li > a:focus,
+.navbar-top-links .dropdown-menu > li > a:hover {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #293846;
+}
+/*--------------------*/
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #293846;
+}
+.ibox-content h1, .ibox-content h2, .ibox-content h3, .ibox-content h4, .ibox-content h5, .ibox-title h1, .ibox-title h2, .ibox-title h3, .ibox-title h4, .ibox-title h5 {
+    margin-top: 0;
+}
+.ibox-tools a {
+    color: #333333 !important;
+}
+.nav > li > a {
+    padding: 5px 15px 5px 15px;
+}
+.nav-second-level li a {
+    padding: 5px 10px 5px 10px;
+    padding-left: 25px;
+}
+.form-label{
+    margin-bottom: .1rem;
+    font-weight: 600;
+}
+.form-group {
+    margin-bottom: .5rem;
+}
+.form-control{
+    box-shadow: inset 0px 0px 24px #e1e1e1;
+}
+.input-group-addon{
+    box-shadow: inset 0px 0px 24px #e1e1e1;
+}
+button.multiselect.dropdown-toggle.btn.btn-default {
+    box-shadow: inset 0px 0px 24px #e1e1e1;
+}
+.modal-lg {
+    max-width: 90% !important;
+}
+.modal-md {
+    max-width: 60% !important;
+}
+.inmodal .modal-header {
+    padding: 15px 10px;
+}
+.inmodal .modal-body {
+    background: none;
+}
+.modal-body {
+    padding: 15px;
+}
+.table-condensed > tbody > tr > td{
+    padding: .4rem;
+}
+.table > tbody > tr > td {
+    padding: 3px !important;
+    vertical-align: middle;
+}
+.dataTables_wrapper {
+    padding-bottom: 10px;
+}
+@media (min-width: 660px) {
+    .dataTables_paginate {
+        float: right;
+    }
+}
+.wrapper-content {
+    padding: 10px 0px 25px;
+}
+.ibox-content {
+    padding: 15px;
+}
+.container-fluid {
+    padding: 0;
+}
+.no-display{
+    display: none;
+}
+.nav-header {
+    padding: 5px 10px;
+}
+.feed-element {
+    padding-bottom: 5px;
+}
+
+
+/*multiselect label full width clickable*/
+.multiselect-container .input-group {
+     margin: 0 !important;
+}
+.multiselect-container>li>a>label {
+    width: 100% !important;
+    padding: 3px 10px 3px 10px !important;
+}
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 2px);
+}
+button.multiselect{
+    text-align: left;
+    width: 100%;
+    position: relative;
+    height: calc(2.25rem);
+    border-radius: 0;
+}
+button.multiselect .caret{
+    margin-top: 8px;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+}
+button.btn.btn-default.multiselect-clear-filter {
+    height: calc(2.25rem) !important;
+    border-radius: 0;
+    width: 100%;
+}
