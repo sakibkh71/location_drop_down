@@ -1,0 +1,26 @@
+HELPER : locatonDropDownHelper.php
+
+Controller : LocationConfigurationController.php
+
+JS : Public/js/locationDropDown.js
+
+View : Resourecs/views/includes/location_drop_down.blade.php
+
+
+Impliment IN view/multiselect.blade.php ..........
+
+
+..first create helper
+..Set helper in Composer.json AUTO LOAD
+..add js
+..add view
+
+
+Modify "locationDropDown.js" just define the Project ROOT PATH
+
+....(1) Call the function to create DROPDOWN "echo getLocationDropDownData();"
+Example : 
+			echo getLocationDropDownData(3, 'last');
+                //it show last 3 drop down
+			echo getLocationDropDownData(3, 'first');
+                //it show first 3 drop down

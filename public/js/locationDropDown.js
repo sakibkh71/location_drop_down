@@ -5,6 +5,7 @@ $(document).ready(function(){
 
         //url_dd globally come from view page 
         var url_dd = window.location.origin+'/drop_down/public/return_location';
+        // alert(window.location.origin);
 
             $('.geo_loc_cls').multiselect({
                 includeSelectAllOption: true,

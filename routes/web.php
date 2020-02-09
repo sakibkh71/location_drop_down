@@ -15,3 +15,7 @@
 Route::get('/', 'LocationConfigurationController@view');
 //Route::get('/test', 'LocationConfigurationController@test');
 Route::post('/return_location', 'LocationConfigurationController@return_location');
+
+
+
+// Route::get('/add_data', 'LocationConfigurationController@addData');

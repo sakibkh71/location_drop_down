@@ -243,4 +243,21 @@ class LocationConfigurationController extends Controller
 
         return $result;
     }
+
+
+    public function addData(Request $request){
+
+        $settings_data = DB::table('sys_system_settings')->where('option_group', 'geo_location')
+                            ->where('status', 'Active')->pluck('option_value', 'option_key');
+
+        $settings_ary = [];
+
+        foreach($settings_data as $key=>$val){
+            $index_val = explode("_", $key);
+//            $settings_ary[]
+        }
+
+        dd($settings_data);
+        return view('add_data');
+    }
 }

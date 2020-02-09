@@ -45,7 +45,10 @@
                 <?php
                 echo getLocationDropDownData();
 //                echo getLocationDropDownData(3, 'last');
-                    //it show last 3 drop down
+                //it show last 3 drop down
+//                echo getLocationDropDownData(3, 'first');
+                //it show first 3 drop down
+                    
                 ?>
             </div>
         </div>
